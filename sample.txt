@@ -1,1 +1,3 @@
-Happy sample text! Woo!
+Very happy sample text! Woo!
+
+Enjoy making something.
