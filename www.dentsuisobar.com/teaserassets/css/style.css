@@ -1,0 +1,226 @@
+.orange{ background-color: #f74902; }
+.white{ background-color: #FFF; }
+.black{ background-color: #000; }
+.grey{ background-color: #333; }
+.text-orange{ color: #F74902; }
+.text-white{ color: #FFF; }
+.text-black{ color: #000; }
+.line{ width: 30px; height: 50px; margin-bottom: 50px;}
+.line-orange{ border-bottom: 3px solid #F74902;}
+.line-white{ border-bottom: 3px solid #FFF;}
+.line-black{ border-bottom: 3px solid #000;}
+.title{ font-size: 24px; font-weight: 900;}
+a{color: #FFF;}
+
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a { text-decoration: none; cursor: pointer; }
+::selection { background: #cccccc; }
+::-moz-selection { background: #cccccc; }
+.left { float: left; }
+.right { float: right; }
+.table { display: table; }
+.cell { display: table-cell; vertical-align: middle;}
+.clear { clear: both;}
+.letter-spacing-0{ letter-spacing: 0px }
+.letter-spacing-1{ letter-spacing: 1px }
+.letter-spacing-2{ letter-spacing: 2px }
+.col-left{ margin-right: 80px;float: left;}
+.col-right{float: left;}
+.col{width: 450px;}
+.col p{ line-height: 2;color: #FFF;text-align: justify;}
+.align-right{text-align: right!important;}
+.align-center{text-align: center;}
+.section{ width: 100%; }
+.wrapper-normal{padding: 100px 0 120px 0;}
+
+body {
+  background-color: #f74902;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'HelveticaNeue', Helvetica, Arial,'AvenirNext-Regular', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'Osaka', 'MS PGothic', 'Verdana', sans-serif;
+  min-height: 480px;
+  min-width: 480px;
+}
+#header{
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.logo{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.nav{
+  position: fixed;
+  top: 0;
+  right: 20px;
+  overflow: hidden;
+  height: 80px;
+  width: auto;
+  display: inline-block;
+}
+.nav li{
+  float: left;
+  padding: 33px 18px;
+}
+.nav a{
+  letter-spacing: 2px;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 900;
+  font-family: 'Helvetica Neue Bold', Helvetica, Arial,'AvenirNext-Regular', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'Osaka', 'MS PGothic', 'Verdana', sans-serif;
+}
+.blog{
+  border-radius: 50px;
+  border:1px solid #FFF;
+  padding: 3px 15px;
+}
+.social-anchor{
+  position: fixed;
+  top: 25px;
+  padding: 10px;
+  color: #FFF;
+}
+#fb{
+  right: 70px;
+}
+#ln{
+  right: 30px;
+}
+
+.wrapper{
+  width: 980px;
+  margin: 0 auto;
+}
+
+/*top*/
+#top{
+  margin-top: 80px;
+  padding-top:234px;
+}
+#slogan{
+  margin-bottom: 205px;
+}
+.blog-btn-wrapper{
+  padding: 100px 0;
+}
+
+#top .col p{
+  font-size: 14px;
+}
+
+/*news*/
+.news-anchor{
+  line-height: 2;
+  font-size: 15px;
+  color: #000;
+}
+.news-anchor:hover{
+  text-decoration: underline;
+}
+.time{
+  font-size: 13px;
+}
+
+/*about*/
+#about .col p{
+  font-size: 15px;
+  line-height: 2.4;
+}
+#about .en{
+  line-height: 2!important;
+}
+
+/*history*/
+#history .col p{
+  font-size: 13px;
+  line-height: 1.5;
+}
+#history .en{
+  line-height: 1.4!important;
+}
+
+/*access*/
+#access .col p{
+  font-size: 15px;
+}
+
+
+/*contact*/
+#contact .col p{
+  font-size: 15px;
+}
+.contact-item{
+  margin-bottom: 60px;
+}
+.contact-item h3{
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.contact-item a{
+  margin-top: 10px;
+  display: inline-block;
+  width: 130px;
+  height: 42px;
+  background:url(../images/more.png);
+}
+.contact-item a:hover{
+  background-position: 0px 42px;
+}
+#contact .col-right p{
+  text-align: left;
+  line-height: 1.8;
+}
+
+/*branding*/
+#branding{
+  position: relative;
+  text-align: center;
+}
+
+/*footer*/
+#footer{
+  width: 100%;
+  height: 50px;
+  position: relative;
+  color: #FFF;
+}
+#footer a{
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  font-size: 13px;
+}
+#footer span{
+  position: absolute;
+  right:20px;
+  top:18px;
+  font-size: 13px;
+}
+
+#cover{
+  position: fixed;
+  z-index: 100;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+}
+
+
+@media screen and (max-width: 980px) {
+ 
+}

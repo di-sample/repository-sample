@@ -1,0 +1,138 @@
+.orange{ background-color: #f74902; }
+.white{ background-color: #FFF; }
+.black{ background-color: #000; }
+.grey{ background-color: #333; }
+.text-orange{ color: #F74902; }
+.text-white{ color: #FFF; }
+.text-black{ color: #000; }
+.line{ width: 30px; height: 50px; margin-bottom: 50px;}
+.line-orange{ border-bottom: 3px solid #F74902;}
+.line-white{ border-bottom: 3px solid #FFF;}
+.line-black{ border-bottom: 3px solid #000;}
+.title-pc{ font-size: 24px; font-weight: 900;}
+
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a { text-decoration: none; cursor: pointer; }
+::selection { background: #cccccc; }
+::-moz-selection { background: #cccccc; }
+.left { float: left; }
+.right { float: right; }
+.table { display: table; }
+.cell { display: table-cell; vertical-align: middle;}
+.clear { clear: both;}
+.letter-spacing-0{ letter-spacing: 0px }
+.letter-spacing-1{ letter-spacing: 1px }
+.letter-spacing-2{ letter-spacing: 2px }
+.col-left{ margin-right: 80px;float: left;}
+.col-right{float: left;}
+.col{width: 450px;}
+.col p{ line-height: 2;color: #FFF;text-align: justify;}
+.align-right{text-align: right!important;}
+.align-center{text-align: center;}
+.section{ width: 100%; }
+.wrapper{ width: 780px; margin:0 auto;}
+.wrapper-normal{padding: 100px 0 120px 0;}
+
+.bigtitle{
+  display: block;
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+.bigtitle span{
+  font-size: 24px;
+  font-weight: 900;
+}
+.bigtitle i{
+  font-size: 16px;
+  font-weight: 900;
+}
+body {
+  background-color: #f74902;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'HelveticaNeue', Helvetica, Arial,'AvenirNext-Regular', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'Osaka', 'MS PGothic', 'Verdana', sans-serif;
+  min-height: 480px;
+  min-width: 480px;
+}
+#header-pc{
+  width: 100%;
+  height: 75px;
+  text-align: center;
+}
+.logo-pc{
+  position: fixed;
+  top: -3px;
+  left: 0;
+}
+
+.newstitle{
+  font-size: 24px;
+  font-weight: 900;
+}
+.line{
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  margin: 50px 0 70px 0;
+}
+h1{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0 50px 0;
+}
+.text{
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+.subtitle{
+  font-size: 14px;
+  margin: 70px 0 35px -8px;
+  letter-spacing: 2px;
+}
+table{
+  margin-right: 100px;
+  float: left;
+}
+td{
+  line-height: 2;
+  font-size: 14px;
+  letter-spacing: 2px;
+  /*padding: 10px;*/
+}
+.yakuin{
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+
+
+/*footer*/
+#footer-pc{
+  width: 100%;
+  height: 50px;
+  position: relative;
+  color: #FFF;
+  background-color: #333;
+}
+#footer-pc a{
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  font-size: 13px;
+}
+#footer-pc span{
+  position: absolute;
+  right:20px;
+  top:18px;
+  font-size: 13px;
+}
+
